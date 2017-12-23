@@ -1,0 +1,112 @@
+
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+*{box-sizing: border-box;}
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+    font-size:12px;
+    color:#333;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+    overflow:hidden;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center
+}
+
+.tr {
+    text-align: right;
+}
+
+.ellipse {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.inline{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+body{
+    -webkit-text-size-adjust:100%;/*iPhone 和 Android 的浏览器纵向 (Portrate mode) 和橫向 (Landscape mode) 模式皆有自动调整字体大小的功能。控制它的就是 CSS 中的 -webkit-text-size-adjust。text-size-adjust 设为 none 或者 100% 关闭字体大小自动调整功能.*/
+-webkit-tap-highlight-color:transparent;/*比如在图片或者链接上，希望不出现被选中的颜色，可以怎么做呢？其实我们可以将属性-webkit-tap-highlight-color的值设置为透明就可以实现。当然也可以设置成其他颜色，也支持rgba*/
+}
+*:not(input,textarea) {
+    -webkit-touch-callout: none;/*长按屏幕时会禁止设备弹出列表按钮*/
+-webkit-user-select: none;/*之所以放在这里是因为如果放到body中会导致个别Android机型（Google  Nexus，Android 4.2.2）输入框无法输入*/
+}
+select{-webkit-appearance:none;/*用来改变按钮和其他控件的外观,加上这个以后，select的高度就可以改变了。所以，当然也可以用于其他浏览器控件中*/}
+:focus {
+    outline:0;
+    -webkit-tap-highlight-color:transparent
+}/*防止获取焦点时，出现边框*/
+.main{
+    max-width: 750px;
+    margin: 0 auto;
+
+
+}

@@ -1,0 +1,50 @@
+.main{
+    background-color: #ffffff;
+
+
+}
+.header{
+    background-color: #f8f8f8;
+    border-bottom: none;
+}
+.con{
+    background-color: #ffffff;
+    margin-top: 0;
+}
+.con-ul{
+    margin-top: -.05rem;
+}
+.con-ul li:nth-child(even){
+    margin-left: 4%;
+}
+.con-ul li{
+    border: 1px solid lightgray;
+}
+.hadprise{
+
+max-width: 750px;
+    height: .4rem;
+    line-height: .4rem;
+    width: 100%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.hadprise ul{
+
+    text-align: center;
+}
+.hadprise ul li{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.hadprise_line{
+    border-right: 1px solid grey;
+}
+.hadprise ul li a{
+    width: 100%;
+    display: inline-block;
+    height: .3rem;
+    line-height: .3rem;
+    color: #E51C23;
+}

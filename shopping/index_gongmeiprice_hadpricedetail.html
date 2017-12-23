@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>工美商城</title>
+    <meta name="Keywords" content="商城">
+    <meta name="Description" content="商城">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/index_gongmeiprice_hadpricedetail.css"/>
+    <script type="text/javascript" charset="utf-8">
+        (function (designWidth, maxWidth) {
+
+            var doc = document, win = window;
+            var docEl = doc.documentElement;
+            var tid;
+            var rootItem, rootStyle;
+
+            function refreshRem() {
+                var width = docEl.getBoundingClientRect().width;
+                if (!maxWidth) {
+                    maxWidth = 750;
+                }
+                ;
+                if (width > maxWidth) {
+                    width = maxWidth;
+                }
+                //与淘宝做法不同，直接采用简单的rem换算方法1rem=100px
+                var rem = width * 100 / designWidth;
+                //兼容UC开始
+                rootStyle = "html{font-size:" + rem + 'px !important}';
+                rootItem = document.getElementById('rootsize') || document.createElement("style");
+                if (!document.getElementById('rootsize')) {
+                    document.getElementsByTagName("head")[0].appendChild(rootItem);
+                    rootItem.id = 'rootsize';
+                }
+                if (rootItem.styleSheet) {
+                    rootItem.styleSheet.disabled || (rootItem.styleSheet.cssText = rootStyle)
+                } else {
+                    try {
+                        rootItem.innerHTML = rootStyle
+                    } catch (f) {
+                        rootItem.innerText = rootStyle
+                    }
+                }
+                //兼容UC结束
+                docEl.style.fontSize = rem + "px";
+            };
+            refreshRem();
+            win.addEventListener("resize", function () {
+                clearTimeout(tid); //防止执行两次
+                tid = setTimeout(refreshRem, 300);
+            }, false);
+            win.addEventListener("pageshow", function (e) {
+                if (e.persisted) { // 浏览器后退的时候重新计算
+                    clearTimeout(tid);
+                    tid = setTimeout(refreshRem, 300);
+                }
+            }, false);
+            if (doc.readyState === "complete") {
+                doc.body.style.fontSize = "14px";
+            } else {
+                doc.addEventListener("DOMContentLoaded", function (e) {
+                    doc.body.style.fontSize = "14px";
+                }, false);
+            }
+
+        })(375, 414);
+    </script>
+</head>
+<body>
+
+<div class="main">
+    <header class="header">
+        估价详情
+    </header>
+
+    <div class="det_con">
+        <img class="det_img" src="images/detail.jpg" alt=""/>
+        <div class="det_whole">
+            <div class="det_top">
+                <ul>
+                    <li class="det_left">
+                        <p>李佰虎</p>
+
+                        <p>红荷图    2011年</p>
+                    </li>
+                    <li class="det_right">
+                        <div class="det_shu">
+                            <img src="images/share.jpg" alt=""/>
+                            <p style="margin-right: .07rem">分享</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="det_goods">图文详情</div>
+
+    </div>
+    <div class="det_explain">
+        <div class="det_explain_con">
+            <p>作者：<span>李欧虎</span></p>
+
+            <p>画作分类：<span>书画</span></p>
+
+            <p>年代：<span>现代</span></p>
+
+            <p>尺寸：<span>234cm*345cm</span></p>
+
+            <p>画作风格：<span>花鸟</span></p>
+
+            <p>画作形式：<span>大写意</span></p>
+
+            <p>画质材料：<span>牛皮</span></p>
+        </div>
+        <div class="det_img_height">
+            <img class="det_img_height265" src="images/height265.jpg" alt=""/>
+        </div>
+
+    </div>
+
+
+
+
+</div>
+<footer class="footer">
+    <ul>
+        <li class="footer_left">
+            <ul>
+                <li class="footer_li_heart"><img class="footer_heart" src="images/heart.jpg" alt=""/></li>
+                <li class="footer_li_car">
+                   <p>￥  8000-10000</p>
+                </li>
+            </ul>
+
+        </li>
+        <li class="footer_right">
+            申请购买
+        </li>
+
+    </ul>
+</footer>
+
+</body>
+</html>
