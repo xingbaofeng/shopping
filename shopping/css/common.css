@@ -107,6 +107,6 @@ select{-webkit-appearance:none;/*用来改变按钮和其他控件的外观,加上这个以后，sele
 .main{
     max-width: 750px;
     margin: 0 auto;
-
+    background-color: #f2f2f2;
 
 }

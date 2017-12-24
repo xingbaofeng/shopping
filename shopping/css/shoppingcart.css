@@ -1,0 +1,102 @@
+body{
+    background-color:#f2f2f2 ;
+}
+.cart-hd{
+    height: 0.45rem;
+
+}
+.cart-hd p{
+    height: 100%;
+    line-height: 0.45rem;
+    text-align: center;
+    font-size: .16rem;
+}
+.cart-commodityList{
+    width: 100%;
+    background-color: white;
+}
+.cart-productlistFor{
+    height: .75rem;
+    width: 100%;
+
+}
+.cart-productlistFor-check{
+    margin: .35rem 0 0 .1rem;
+    float: left;
+}
+.cart-productlistFor-img{
+    width: .5rem;
+    height: 100%;
+    float: left;
+    margin-left: .1rem;
+    line-height: .75rem;
+    border-right: 3px;
+}
+.cart-productlistFor-img img{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 3px;
+}
+.cart-productlistFor-name{
+    float: left;
+    width: 1.8rem;
+
+}
+.cart-productlistFor-name p{
+    text-align: center;
+    padding-top: .1rem;
+    font-size: .14rem;
+}
+.cart-productlistFor-price{
+    width: .8rem;
+    height: 100%;
+    float: right;
+    color: orange;
+    line-height: .75rem;
+    padding-right: .05rem;
+}
+.cart-operation{
+    height: .46rem;
+    width: 100%;
+
+}
+.cart-productlistFor-SC{
+    width: .3rem;
+    height: 100%;
+    line-height: .46rem;
+    padding-left: .1rem;
+    float: left;
+
+}
+.cart-productlistFor-Select{
+    line-height: .46rem;
+    padding-left: .1rem;
+    width: .4rem;
+    height: 100%;
+    float: left;
+}
+.cart-productlistFor-total{
+    padding-left: .1rem;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+.cart-productlistFor-total p{
+    font-size: .12rem;
+}
+.cart-fortotal-total{
+    padding-top: .05rem;
+}
+.cart-fortotal-total span{
+    color: orange;
+}
+.cart-fortotal-brief{
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: .05rem;
+}
+.cart-productlistFor-del{
+    float: left;
+    line-height: .46rem;
+}
