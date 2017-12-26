@@ -142,7 +142,7 @@ body{
 }
 
 
-/*  ¹ºÎï³µ¶©µ¥È·ÈÏÒ³*/
+/*  ï¿½ï¿½ï¿½ï³µï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½Ò³*/
 .cartOrder-contact-o{
     background-color: white;
 }
@@ -246,4 +246,8 @@ float: left;
 }
 .co-pro-donefrdone p:nth-child(2){
     padding-right: .1rem;
+}
+.cartOrder-kongxi{
+    width: 100%;
+    height: .6rem ;
 }

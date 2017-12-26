@@ -62,6 +62,9 @@
 
 
 }
+.kind ul li a div{
+    color: #ffffff;
+}
 
 .kind ul li img{
     width: 100%;
