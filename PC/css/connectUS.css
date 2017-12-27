@@ -1,0 +1,273 @@
+
+.header{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    overflow: hidden;
+
+
+}
+.header_title{
+    margin:40px auto;
+    font-size: 32px;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #ffc001;
+
+
+}
+.header_tab{
+    text-align: center;
+}
+.header_tab ul{
+    width:270px;
+    height: 40px;
+    line-height: 40px;
+    margin: 1px auto;
+
+
+}
+.header_tab ul li{
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 16px;
+
+}.header_tab ul li a{
+     display: inline-block;
+     height: 15px;
+     line-height: 15px;
+     text-underline: none;
+     text-decoration: none;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+
+.curColor{
+    border-bottom: 2px solid #ffc001;
+    color: #ffc001;
+}
+.curColor a{
+    color: #ffc001;
+}
+.curBorder a{
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+
+.phone{
+    height: 600px;
+    width: 100%;
+    background: transparent url(../img/last.jpg) no-repeat top;
+}
+.us_title{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.us_con{
+    width: 1100px;
+    height: auto;
+    margin: 40px auto;
+
+}
+.us_con_ti{
+    color: rgb(24, 24, 24);
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.us_con_ti1,.us_con_ti2{
+    line-height: 32px;
+    font-size: 14px;
+    color: rgb(137, 137, 137);
+    text-align: center;
+}
+.us_con_img{
+    width: 890px;
+    margin: 0 auto;
+
+    margin-top:60px;
+    margin-bottom: 120px;
+
+}
+.us_con_img img{
+    width: 395px;
+    height: 261px;
+}
+.us_con_line{
+    width: 35px;
+    height: 8px;
+    margin: 0 auto;
+   background:#ffc001 ;
+    margin-top: -50px;
+
+
+}
+.us_detail{
+    margin-top:90px;
+    height: 150px;
+}
+.us_detail li{
+    float: left;
+    text-align: center;
+    width:366px;
+    height: 150px;
+
+
+}
+.us_detail li p{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #666666;
+}
+.us_map{
+    clear: both;
+    width: 1100px;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid gray;
+    margin-bottom: 50px;
+}
+.footer{
+    text-align: center;
+    background-color: #000000;
+    padding-top: 50px;
+    height: 100px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #a6a6a6;
+}
+.footer a{
+    color: #a6a6a6;
+    margin: 5px;
+    vertical-align: middle;
+}
+.footer a:hover{
+    color:rgb(255, 192, 1);
+    text-decoration: none;
+}
+
+.phone ul{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.phone ul li{
+    float: left;
+}
+.phone_det{
+    width: 300px;
+    height: 500px;
+
+}
+.phone_form{
+    width: 790px;
+    height: 500px;
+
+}
+.phone_det_p1{
+    margin-top: 70px;
+    color: rgb(64, 64, 64);
+    font-size: 24px;
+}
+.phone_det_p1 .p_eng{
+    color: rgb(206, 206, 206);
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.phone_det_line{
+    margin-top: 20px;
+    width: 45px;
+    height: 1px ;
+    background-color: rgb(30, 30, 30); ;
+}
+.phone_det_p2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 36px;
+    color: rgb(255, 192, 1);
+}
+.phone_det_p3,.phone_det_p4,.phone_det_p5{
+
+    font-size: 14px;
+    line-height: 36px;
+    color: rgb(150, 150, 150);
+    background-color: transparent;
+}
+.phone_det_p3 a{
+    color: rgb(150, 150, 150);
+}
+.phone_det_p3 a:hover{
+    text-decoration: none;
+}
+.phone_det_p6{
+    margin-top: 80px;
+}
+.phone_det_p6 img.p6_weibo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.phone_form form{
+    margin-left: 100px;
+    width:690px ;
+    height: 500px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.phone_form form p,.phone_form form .submit{
+    margin-left: 100px;
+}
+.phone_form form p label{
+    color: rgb(130, 130, 130);
+    font-size:15px;
+    font-weight:bold;
+}
+.phone_form form p input{
+    margin-left: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid rgba(191,191,191,0.3);;
+    margin-top: 24px;
+}
+.phone_form form p textarea{
+    vertical-align: middle;
+    margin-top: 24px;
+    padding: 10px;
+    width: 400px;
+    max-width: 400px;
+    margin-left: 10px;
+    height: 80px;
+
+    border-color: #dadada;
+    border-radius: 2px;
+    font-size: 12px;
+
+    max-height: 200px;
+    text-indent: 6px;
+}
+.phone_form form .submit{
+    margin-top: 24px;
+    margin-left: 145px;
+    border: none;
+    background-color: #ffad2b;
+    width: 227px;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    outline: none;
+}

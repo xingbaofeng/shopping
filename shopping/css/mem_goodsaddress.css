@@ -1,0 +1,73 @@
+body{
+    height: 100%;
+    background-color: #f8f8f8;
+}
+.main{
+    background-color: #f8f8f8;
+    padding-bottom: 0;
+}
+.header{
+    background-color: #f8f8f8;
+    border-bottom: none;
+    text-align: center;
+    line-height: .45rem;
+    font-size: .16rem;
+}
+.mem_address{
+    background-color: #ffffff;
+    height: .8rem;
+
+
+
+}
+.mem_address p{
+    margin-left: .2rem;
+}
+.mem_address .mem_address_name{
+    font-size: .16rem;
+    color: #000000;
+    padding-top: .13rem;
+}
+.mem_address .mem_address_name .mem_address_name_phone{
+    display: inline-block;margin-left: .15rem;
+}
+.mem_address .mem_address_address{
+    margin-top: .13rem;
+    color: #000000;
+}
+.mem_lie{
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: .1rem;
+    padding-right: .1rem;
+}
+.mem_line{
+
+    height: 1px;
+    background-color: lightgrey;
+}
+.mem_change{
+    height: .4rem;
+    background-color: #ffffff;
+    line-height: .4rem;
+    padding: 0 .26rem 0 .15rem;
+    font-size: .11rem;
+
+}
+.mem_change_Left{
+    float: left;
+}
+.mem_change_right{
+    float: right;
+}
+.mem_change_right img,.mem_change_Left img{
+    width: 20px;
+    height: 20px;
+}
+.mem_change_editor{
+    margin-right: .2rem;
+}
+.mem_change_right span,.mem_change_Left span{
+    display: inline-block;margin-left: .04rem;
+    font-size: .11rem;
+}
