@@ -177,7 +177,7 @@ body{
 
 .cartOrder-productprice{
     width: 100%;
-    
+
     background-color: white;
     border-top: .2rem solid #eeeeee;
 }
@@ -250,4 +250,228 @@ float: left;
 .cartOrder-kongxi{
     width: 100%;
     height: .6rem ;
+}
+.cartOrder-productpricetotal{
+    background-color: white;
+    font-size: .14rem;
+
+    width: 100%;
+    padding-left: .3rem;
+    padding-right: .3rem;
+}
+.cartOrder-productSubtotal{
+    width: 100%;
+    height: .45rem;
+
+}
+.cartOrder-Subtotalfl{
+    width: 40%;
+    float: left;
+    line-height: .45rem;
+
+}
+.cartOrder-Subtotalfr{
+    float: right;
+    width: 40%;
+    height: 100%;
+    line-height: .45rem;
+    text-align: right;
+
+
+}
+.cartOrder-Subtotalfr span{
+    color: red;
+    padding-right: .1rem;
+}
+.cartOrder-productpricePayment{
+    width: 100%;
+    height: .45rem;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+.cartOrder-Paymentfl{
+    float: left;
+    width: 2.5rem;
+    text-align: right;
+    line-height: .45rem;
+
+}
+.cartOrder-Paymentfl span{
+    color: red;
+}
+.cartOrder-Paymentfr{
+    float: right;
+    background-color: red;
+    color: white;
+    height: 100%;
+    width: 1.4rem;
+    text-align: center;
+    line-height: .45rem;
+
+}
+
+/*
+等待确认页面 shoppingcartwaitconfirm.html
+*/
+
+.scwc-hd{
+    height: .45rem;
+    line-height: .45rem;
+    font-size: .16rem;
+    text-align: center;
+   margin-bottom: .2rem;
+
+}
+.scwc-slid{
+    height: .75rem;
+    background-color: white;
+    padding-left: .2rem;
+    margin-bottom: .17rem;
+}
+.scwc-slidfl{
+    width: 60%;
+    float: left;
+    height: 100%;
+    padding-top: .2rem;
+}
+.scwc-slidfl img{
+    float: left;
+    width: .5rem;
+    height: .5rem;
+}
+.scwc-slidflinfo{
+    width: 1.7rem;
+    height: 100%;
+    float: left;
+    padding-left: .1rem;
+}
+.scwc-slidflinfo p{
+     font-size: .12rem;
+
+ }
+.scwc-slidflinfo div{
+    font-size: .12rem;
+    padding-top: .12rem;
+    color: red;
+
+}
+.scwc-slidfr{
+    width: 30%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    padding-top: .2rem;
+}
+.scwc-slidfr p{
+    color: #eeeeee;
+    font-size: .12rem;
+    padding-bottom: .06rem;
+}
+.scwc-slidfr a{
+    border-radius: 5px;
+    display: block;
+    color: red;
+    border: 1px solid #eeeeee;
+    width: .8rem;
+    margin: 0 auto;
+    height: .3rem;
+    line-height: .3rem;
+    font-size: .14rem;
+}
+
+
+/*
+    收银台 支付 shoppingcartpayment.html
+*/
+.scpm-hd{
+    height: .45rem;
+    width: 100%;
+    text-align: center;
+    line-height: .45rem;
+    font-size: .16rem;
+}
+.scpm-orderinfo{
+    height: 1rem;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.scpm-orderinfoup{
+    height: .45rem;
+    line-height: .45rem;
+    font-size: .14rem;
+}
+.scpm-orderinfoupfl{
+    width: 50%;
+    float: left;
+    padding-left: .2rem;
+}
+.scpm-orderinfoupfr{
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: .1rem;
+}
+.scpm-orderinfoline{
+    width: 98%;
+    margin: 0 auto;
+    border-bottom: 3px solid #eeeeee;
+}
+.scpm-orderinfoupfrcolor{
+    color: red;
+}
+.scpm-orderPayMethod{
+    margin-top: .5rem;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.scpm-MethodSlid{
+    height: .6rem;
+    width: 100%;
+    display: block;
+}
+.scpm-MethodSlidimg{
+    padding-left: .2rem;
+    width: .65rem;
+    text-align: center;
+    height: 100%;
+    line-height: .6rem;
+    float: left;
+
+}
+.scpm-MethodSlidimg img{
+
+    width: .45rem;
+
+
+}
+.scpm-MethodSlidName{
+    width: 2rem;
+    height: 100%;
+    float: left;
+    padding-left: .2rem;
+}
+.scpm-MethodSlidName h2{
+    font-weight: normal;
+    font-size: .14rem;
+    margin-top: .1rem;
+    margin-bottom: .03rem;
+}
+.scpm-MethodSlidName p{
+    font-weight: normal;
+    font-size: .12rem;
+
+}
+.scpm-MethodSlidmore{
+    width: .45rem;
+    height: 100%;
+    text-align: center;
+    line-height: .6rem;
+    float: right;
+    background: url("../images/gotomore.png") no-repeat;
+    background-size:.2rem .2rem;
+    background-position:center;
+}
+.scpm-MethodSlidline{
+    border-bottom: 3px solid #eeeeee;
 }
