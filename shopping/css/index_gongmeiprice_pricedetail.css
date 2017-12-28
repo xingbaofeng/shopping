@@ -53,8 +53,10 @@
 
 }
 .det_top .det_right img{
-    width: .35rem;
-    height: .35rem;
+    width: .2rem;
+    height: .2rem;
+    margin-top: .11rem;
+    margin-right: .08rem;
 }
 .det_top .det_right p{
     font-size: .11rem;
@@ -125,6 +127,11 @@
     font-size: .14rem;
     color: #ffffff;
     padding-right: .1rem;
+    height: .45rem;
+    line-height: .45rem;
+}
+.footer ul li.footer_right a{
+    color: #ffffff;
 }
 .footer_li_car{
     padding-top: .04rem;
@@ -136,6 +143,8 @@
 .footer ul li.footer_left .footer_li_heart{
     text-align: left;
     padding-left: .3rem;
+    height: .45rem;
+    line-height: .45rem;
 }
 
 

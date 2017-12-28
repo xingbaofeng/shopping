@@ -20,6 +20,10 @@
 .con-ul li{
     border: 1px solid lightgray;
 }
+.con-ul-price {
+    text-align: right;margin-right: .1rem;margin-bottom: .05rem;
+    font-size: .12rem;
+}
 .hadprise{
 
 max-width: 750px;

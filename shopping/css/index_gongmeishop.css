@@ -8,7 +8,7 @@
     border-bottom: none;
 }
 .con{
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     margin-top: 0;
 }
 .con-ul{
@@ -35,7 +35,7 @@
 }
 .hadprise ul li{
     float: left;
-    width: 25%;
+    width: 33.3%;
     text-align: center;
 }
 .hadprise_line{

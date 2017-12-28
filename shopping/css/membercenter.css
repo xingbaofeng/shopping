@@ -108,6 +108,15 @@ body{
 }
 .mem_list ul .mem_li_right span{
     display: inline-block;
+    width: .2rem;
+    height: .2rem;
+
+}
+.mem_list ul .mem_li_right span img{
+    width: 100%;
+    height: 100%;
+}
+{
 
 }
 .mem_li_right_look{
@@ -161,8 +170,7 @@ color: #000000;
     border-top: 1px solid grey;
     overflow: hidden;
     height: 45px;
-    line-height: 45px;
-
+    /*line-height: 45px;*/
     box-shadow: 0 0 10PX 0 rgba(155,143,143,0.6);
     -webkit-box-shadow: 0 0 10PX 0 rgba(155,143,143,0.6);
 
@@ -177,24 +185,24 @@ color: #000000;
     list-style: none;
     float: left;
     width: 33.3%;
-    height: 45px;
-    line-height: 45px;
+    /*  height: 45px;
+      line-height: 45px;*/
 
 
 }
-.footer ul .leftIMG{
-    text-align: left;
+.footer ul .leftIMG,.footer ul p.leftP{
+
     margin-left: -.3rem;
 }
-.footer ul .rightIMG{
-    text-align: right;
+.footer ul .rightIMG,.footer ul p.rightP{
+
     margin-right: -.3rem;
 }
 .footer ul li .f-img{
     width: 20px;
+    margin-top: .02rem;
 }
 .footer ul li span{
     display: block;
     font-size: .12rem;
 }
-
