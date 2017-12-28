@@ -5,7 +5,7 @@ body{
     background: #ffffff;
 }
 .header{
-    margin: .05rem 0 0 0;
+    padding: .05rem 0 0 0;
     border-bottom: none;
     text-align: center;
     height: .45rem;
@@ -16,10 +16,6 @@ body{
     position: relative;
     height: .45rem;
     line-height: .45rem;
-
-
-
-
     text-align: center;
     margin: .2rem auto;
     margin-bottom: .45rem;
@@ -79,8 +75,8 @@ border-radius: 10px;
 
 }
 .mem_scope_get img{
-    width: .2rem;
-    height: .2rem;
+    width: .25rem;
+    height: .25rem;
     margin-left: .1rem;
     margin-right: .15rem;
 }
@@ -88,6 +84,7 @@ border-radius: 10px;
     display: inline-block;
     color:#ABA4AB;
     font-size: .14rem;
+    vertical-align: middle;
 
 }
 .mem_scope_method{
