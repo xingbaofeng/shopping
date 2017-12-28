@@ -1,2 +1,3 @@
-# shopping
-shoppingNET
+1，页面红色色值 #E51C23;
+2，icon使用的是阿里矢量图
+3，

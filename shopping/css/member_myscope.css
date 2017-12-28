@@ -1,0 +1,124 @@
+body{
+    height: 100%;  }
+.main{
+    padding-bottom: 0;
+    background: #ffffff;
+}
+.header{
+    margin: .05rem 0 0 0;
+    border-bottom: none;
+    text-align: center;
+    height: .45rem;
+    line-height: .45rem;
+    font-size: .16rem;
+}
+.mem_scope{
+    position: relative;
+    height: .45rem;
+    line-height: .45rem;
+
+
+
+
+    text-align: center;
+    margin: .2rem auto;
+    margin-bottom: .45rem;
+}
+.mem_scope span{
+    font-size: .16rem;
+    display: inline-block;
+    margin-left: .05rem;
+    vertical-align: middle;
+    color: #E51C23;
+
+}
+.mem_scope .mem_scope_big{
+    font-size:.4rem ;
+    color: #E51C23;
+}
+.mem_scope_charge{
+    position: absolute;
+    right: .60rem;
+    top:.14rem;
+    width: .6rem;
+    height: .2rem;
+    line-height: .18rem;
+border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid darkgrey;
+    font-size: .13rem;
+}
+.mem_speator{
+    height: .3rem;
+    line-height: .3rem;
+   margin-top: .18rem;
+    margin-bottom: .18rem;
+}
+.mem_speator li{
+    width: 50%;
+    text-align: center;
+
+}
+.mem_speator li a{
+    display: inline-block;
+    width: 1.3rem;
+    height: .3rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid darkgrey;
+}
+.mem_line{
+    width: 100%;
+    height: 5px;
+    background: #cccccc;
+}
+.mem_scope_get{
+    height: .55rem;
+    line-height: .55rem;
+    border-bottom: 1px solid lightgray;
+
+}
+.mem_scope_get img{
+    width: .2rem;
+    height: .2rem;
+    margin-left: .1rem;
+    margin-right: .15rem;
+}
+.mem_scope_get span{
+    display: inline-block;
+    color:#ABA4AB;
+    font-size: .14rem;
+
+}
+.mem_scope_method{
+  clear: both;
+    text-align: center;
+}
+.mem_scope_method li{
+    float: none;
+    width: 100%;
+    height: .35rem;
+    line-height: .35rem;
+    font-size: .14rem;
+    color: #000000;
+    border-bottom: 1px solid lightgray;
+}
+.footer{
+    background-color: #E51C23;
+    width: 100%;
+    max-width: 750px;
+    position: fixed;
+    bottom: -1px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+    height: 45px;
+    line-height: 45px;
+    font-size: .14rem;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+.footer a{
+    color: #ffffff;
+}

@@ -71,3 +71,24 @@ body{
     display: inline-block;margin-left: .04rem;
     font-size: .11rem;
 }
+
+.footer{
+    background-color: #E51C23;
+    width: 100%;
+    max-width: 750px;
+    position: fixed;
+    bottom: -1px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+    height: 45px;
+    line-height: 45px;
+    font-size: .14rem;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+.footer a{
+    color: #ffffff;
+}
+

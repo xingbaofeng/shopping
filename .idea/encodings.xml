@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/shopping/css/mem_goodsaddress.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/css/mem_setchange.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/css/member_goodsaddress.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/css/member_myscope.css" charset="GBK" />
     <file url="file://$PROJECT_DIR$/shopping/js/refreshrem.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping/member_myscope.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/member_myscope.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/member_myscope.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/member_setchange.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/member_setchange.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/shopping/member_setchange.html" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
