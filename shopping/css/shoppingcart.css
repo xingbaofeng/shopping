@@ -312,7 +312,7 @@ float: left;
 }
 
 /*
-µÈ´ýÈ·ÈÏÒ³Ãæ shoppingcartwaitconfirm.html
+ï¿½È´ï¿½È·ï¿½ï¿½Ò³ï¿½ï¿½ shoppingcartwaitconfirm.html
 */
 
 .scwc-hd{
@@ -382,7 +382,7 @@ float: left;
 
 
 /*
-    ÊÕÒøÌ¨ Ö§¸¶ shoppingcartpayment.html
+    ï¿½ï¿½ï¿½ï¿½Ì¨ Ö§ï¿½ï¿½ shoppingcartpayment.html
 */
 .scpm-hd{
     height: .45rem;
@@ -474,4 +474,48 @@ float: left;
 }
 .scpm-MethodSlidline{
     border-bottom: 3px solid #eeeeee;
+}
+.footer{
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    bottom: -1px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+    height: 45px;
+    /*line-height: 45px;*/
+    box-shadow: 0 0 10PX 0 rgba(155,143,143,0.6);
+    -webkit-box-shadow: 0 0 10PX 0 rgba(155,143,143,0.6);
+
+}
+.footer ul{
+    text-align: center;
+    overflow: hidden;
+
+}
+.footer ul li{
+
+    list-style: none;
+    float: left;
+    width: 33.3%;
+    /*  height: 45px;
+      line-height: 45px;*/
+
+
+}
+.footer ul .leftIMG,.footer ul p.leftP{
+
+    margin-left: -.3rem;
+}
+.footer ul .rightIMG,.footer ul p.rightP{
+
+    margin-right: -.3rem;
+}
+.footer ul li .f-img{
+    width: 20px;
+    margin-top: .02rem;
+}
+.footer ul li span{
+    display: block;
+    font-size: .12rem;
 }
