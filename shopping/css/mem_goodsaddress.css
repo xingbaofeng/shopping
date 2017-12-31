@@ -72,6 +72,14 @@ body{
     font-size: .11rem;
     vertical-align: middle;
 }
+.mem_change_Left input,.mem_change_Left label{
+  color: #007aff;
+    display: inline-block;
+    vertical-align: middle;
+    height: .20rem;
+    line-height: .17rem;
+    margin-top: .03rem;
+}
 
 .footer{
     background-color: #E51C23;

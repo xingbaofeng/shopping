@@ -7,13 +7,14 @@
     <title></title>
     <link rel="stylesheet" href="css/common.css"/>
     <link rel="stylesheet" href="css/shoppingcart.css"/>
+    <link rel="stylesheet" href="css/shoppingcart_waittinglist.css"/>
 
     <script src="js/refreshrem.js"></script>
 </head>
 <body>
 <div class="main">
     <div class="cart-hd">
-        <p>订单确认</p>
+        <p>待收货</p>
     </div>
 
     <div class="cartOrder-contact-o">
@@ -25,7 +26,7 @@
 
                 <p class="cartOrder-contact-address">天津市南开区仁爱庄园</p>
             </div>
-            <img class="cart-right" src="images/shop_right.png" alt=""/>
+           <!-- <img class="cart-right" src="images/shop_right.png" alt=""/>-->
         </a>
     </div>
     <div class="cartOrder-productprice">
@@ -79,14 +80,14 @@
 
             </div>
         </div>
-        <div class="cartOrder-productprice-done">
+        <div class="cartOrder-productprice-done" style="height: .55rem;padding-top: .1rem">
             <div class="cartOrder-productprice-donefr">
-                <div class="co-pro-donefrup">
+               <!-- <div class="co-pro-donefrup">
                     <p>积分抵用</p>
                     <input type="text" placeholder="输入积分"/>
 
                     <div></div>
-                </div>
+                </div>-->
                 <div class="co-pro-donefrdone">
                     <p>共 <span>1</span>件商品</p>
 
@@ -95,6 +96,14 @@
                     <p style="color: #f66563;font-size: .12rem;margin-top: .03rem">¥ 8000.00</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="cart_address">
+        <div class="cart_address_name">快递详情：</div>
+        <div class="cart_address_con">
+            <span></span>
+            <span style="text-align: center">顺分快递</span>
+            <span style="text-align: right">25543435</span>
         </div>
     </div>
     <div class="cartOrder-kongxi"></div>
@@ -128,15 +137,15 @@
         </div>
     </div>
     <div style="height: .65rem;width: 100%"></div>
-    <div class="cartOrder-productpricePayment">
+   <!-- <div class="cartOrder-productpricePayment">
         <div class="cartOrder-Paymentfl">
             需付：<span>¥ 8000.00</span>
         </div>
-        <a href="shoppingcartpayment.html" class="cartOrder-Paymentfr">
+        <a href="#" class="cartOrder-Paymentfr">
             立即支付
         </a>
     </div>
-
+-->
 </div>
 
 

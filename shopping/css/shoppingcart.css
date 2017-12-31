@@ -13,11 +13,13 @@ body{
 }
 .cart-commodityList{
     width: 100%;
-    background-color: white;
+
 }
 .cart-productlistFor{
     height: .75rem;
     width: 100%;
+    background-color: #ffffff;
+    margin: .15rem 0;
 
 
 }
@@ -36,7 +38,8 @@ body{
 .cart-productlistFor-img img{
     width: .5rem;
     height: .5rem;
-    border-radius: 3px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .cart-productlistFor-name{
     float: left;
@@ -52,7 +55,7 @@ body{
     width: .8rem;
     height: 100%;
     float: right;
-    color: orange;
+    color: #F66563;
     line-height: .75rem;
     padding-right: .05rem;
 }
@@ -60,7 +63,9 @@ body{
     height: .46rem;
     width: 100%;
     position: fixed;
-    bottom: .45rem;
+    bottom: .44rem;
+    background-color: #ffffff;
+    border-top: 1px solid #f8f8f8;
 
 }
 .cart-productlistFor-SC{
@@ -91,7 +96,7 @@ body{
     padding-top: .05rem;
 }
 .cart-fortotal-total span{
-    color: orange;
+    color: #F66563;
 }
 .cart-fortotal-brief{
     margin-bottom: 0;
@@ -113,7 +118,7 @@ body{
     height: 100%;
     text-align: center;
     line-height: .46rem;
-    background-color: red;
+    background-color: #F66563;
     font-size: .14rem;
     color: white;
 }
@@ -151,13 +156,20 @@ body{
     width: 100%;
     height: 1.1rem;
 
-    background: url("../images/lianxiicon.png")   no-repeat left;
+    background: url("../images/shop_position.png")   no-repeat left;
     background-size:.2rem .2rem;
     background-position: .1rem center;
+    position: relative;
+}
+.cart-right{
+    position: absolute;top:.4rem;
+    right:.2rem;
+    height: .2rem;
 }
 .cartOrder-contact-lx{
     height: 100%;
     margin-left: .5rem;
+
 }
 .cartOrder-contact-nameandphone{
     width: 3rem;
@@ -179,7 +191,7 @@ body{
     width: 100%;
 
     background-color: white;
-    border-top: .2rem solid #eeeeee;
+    border-top: .1rem solid #eeeeee;
 }
 .cartOrder-productprice-up{
     height: .9rem;
@@ -187,16 +199,18 @@ body{
 .cartOrder-productprice-upimg{
     margin-left: .2rem;
     margin-top: .2rem;
-    width: .36rem;
+    width: .5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .cartOrder-productprice-upname{
     float: right;
     width: 3rem;
     height: 100%;
-    line-height: .7rem;
+    line-height: .9rem;
 }
 .cartOrder-productprice-upname p{
-    padding-left: .5rem;
+    padding-left: .35rem;
 }
 .cartOrder-productprice-upline{
    padding: 0 .1rem;
@@ -216,7 +230,7 @@ body{
     height: 100%;
 }
 .co-pro-donefrup{
-    padding-top: .2rem;
+    padding-top: .25rem;
     padding-right: .2rem;
 }
 .co-pro-donefrup p{
@@ -226,30 +240,34 @@ body{
     float: left;
 }
 .co-pro-donefrup input{
-    width: .7rem;
-    height: .3rem;
+    width: .78rem;
+    height: .30rem;
     float: right;
     border: 1px solid #eeeeee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding-left: .1rem;
 }
 .co-pro-donefrup div{
     clear: both;
 }
 .co-pro-donefrdone{
 overflow: hidden;
+    margin-top: .08rem;
 }
 .co-pro-donefrdone p{
 float: left;
-    font-size: .16rem;
+    font-size: .16rem;;
 }
 .co-pro-donefrdone p:nth-child(1){
     padding-right: .1rem;
 }
 .co-pro-donefrdone p:nth-child(2){
-    padding-right: .1rem;
+    padding-right: .25rem;
 }
 .cartOrder-kongxi{
     width: 100%;
-    height: .6rem ;
+    height: .8rem ;
 }
 .cartOrder-productpricetotal{
     background-color: white;
@@ -279,9 +297,13 @@ float: left;
 
 
 }
+
+
 .cartOrder-Subtotalfr span{
-    color: red;
+    color: #F66563;
     padding-right: .1rem;
+    font-size: .12rem;
+
 }
 .cartOrder-productpricePayment{
     width: 100%;
@@ -289,6 +311,7 @@ float: left;
     background-color: white;
     position: fixed;
     bottom: 0;
+    max-width: 750px;
 }
 .cartOrder-Paymentfl{
     float: left;
@@ -298,11 +321,12 @@ float: left;
 
 }
 .cartOrder-Paymentfl span{
-    color: red;
+    color: #F66563;
+    font-size: .12rem;
 }
 .cartOrder-Paymentfr{
     float: right;
-    background-color: red;
+    background-color: #F66563;
     color: white;
     height: 100%;
     width: 1.4rem;
@@ -326,25 +350,27 @@ float: left;
 .scwc-slid{
     height: .75rem;
     background-color: white;
-    padding-left: .2rem;
+    padding-left: .3rem;
     margin-bottom: .17rem;
 }
 .scwc-slidfl{
     width: 60%;
     float: left;
     height: 100%;
-    padding-top: .2rem;
+    padding-top: .14rem;
 }
 .scwc-slidfl img{
     float: left;
     width: .5rem;
     height: .5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 .scwc-slidflinfo{
     width: 1.7rem;
     height: 100%;
     float: left;
-    padding-left: .1rem;
+    padding-left: .2rem;
 }
 .scwc-slidflinfo p{
      font-size: .12rem;
@@ -353,7 +379,7 @@ float: left;
 .scwc-slidflinfo div{
     font-size: .12rem;
     padding-top: .12rem;
-    color: red;
+    color: #E51C23;
 
 }
 .scwc-slidfr{
@@ -361,7 +387,7 @@ float: left;
     float: right;
     height: 100%;
     text-align: center;
-    padding-top: .2rem;
+    padding-top: .12rem;
 }
 .scwc-slidfr p{
     color: #eeeeee;
@@ -370,14 +396,16 @@ float: left;
 }
 .scwc-slidfr a{
     border-radius: 5px;
+    -webkit-border-radius: 5px;
     display: block;
-    color: red;
+    color: #E51C23;
     border: 1px solid #eeeeee;
     width: .8rem;
     margin: 0 auto;
     height: .3rem;
     line-height: .3rem;
     font-size: .14rem;
+    margin-top: .05rem;
 }
 
 
@@ -418,10 +446,10 @@ float: left;
     border-bottom: 3px solid #eeeeee;
 }
 .scpm-orderinfoupfrcolor{
-    color: red;
+    color: #E51C23;
 }
 .scpm-orderPayMethod{
-    margin-top: .5rem;
+    margin-top: .2rem;
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
 }
@@ -468,7 +496,7 @@ float: left;
     text-align: center;
     line-height: .6rem;
     float: right;
-    background: url("../images/gotomore.png") no-repeat;
+    background: url("../images/shop_right.png") no-repeat;
     background-size:.2rem .2rem;
     background-position:center;
 }
@@ -518,4 +546,17 @@ float: left;
 .footer ul li span{
     display: block;
     font-size: .12rem;
+}
+.goback{
+    width: .45rem;
+    height:.45rem;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 3;
+}
+.gobackImg{
+    width: .21rem;
+    height: .21rem;
+
 }

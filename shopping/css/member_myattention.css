@@ -23,15 +23,16 @@ body{
 }
 .mem_list{
     overflow: hidden;
-    padding: 0 .1rem;
+   /* padding: 0 .1rem;*/
     width: 100%;
     height: 100%;
-    background-color: #ffffff;!important;
+
 
 
 }
 .mem_con{
     height: .5rem;
+    background-color: #f8f8f8;
 
 }
 .mem_list li{
@@ -39,6 +40,8 @@ body{
     width: 100%;
     list-style: none;
     position: relative;
+    background-color: #ffffff;
+    margin-top: .15rem;
 
 
 
@@ -46,7 +49,7 @@ body{
 
 .mem_list .mem_con img{
     position: absolute;
-    left:.1rem;
+    left:.2rem;
     top:.15rem;
     width: .5rem;
     height: .5rem;
