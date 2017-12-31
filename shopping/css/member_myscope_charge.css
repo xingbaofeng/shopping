@@ -1,0 +1,71 @@
+body{
+    height: 100%;  }
+.main{
+    padding-bottom: 0;
+    background: #ffffff;
+
+}
+.header{
+    padding: .05rem 0 0 0;
+    border-bottom: none;
+    text-align: center;
+    height: .45rem;
+    line-height: .45rem;
+    font-size: .16rem;
+}
+.mem_connect{
+    width: 90%;
+    margin: 0 auto;
+
+}
+.mem_con{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #F2F2F2;
+    height: .3rem;
+    line-height: .26rem;
+    margin-top: .05rem;
+    text-align: center;
+    font-size: .11rem;
+}
+.mem_con_con{
+
+}
+.mem_con img{
+    width: .12rem;
+    height: .12rem;
+}
+.mem_con img.mem_con_img{
+    display: inline-block;
+    margin-left: .15rem;
+}
+.mem_con span{
+    display: inline-block;
+    margin-left: .15rem;
+    vertical-align: middle;
+    font-size: .1rem;
+}
+
+
+
+.footer{
+    background-color: #f5f5f5;
+    width: 100%;
+    max-width: 750px;
+    position: fixed;
+    bottom: -1px;
+
+    overflow: hidden;
+    height: 45px;
+    line-height: 45px;
+    font-size: .14rem;
+    color: #000000;
+    text-align: center;
+
+
+}
+.footer a{
+    color: #000000;
+}
