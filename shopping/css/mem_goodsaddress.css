@@ -70,6 +70,7 @@ body{
 .mem_change_right span,.mem_change_Left span{
     display: inline-block;margin-left: .04rem;
     font-size: .11rem;
+    vertical-align: middle;
 }
 
 .footer{
