@@ -1,6 +1,11 @@
 .new_header_photo1 .newabout_curtualcon{
     color:rgb(102, 102, 102);
 }
+
+.header div.new_about_banner{
+    background:url('../img/new_aboutsimplebanner.jpg');
+
+}
 .newabout_introduction{
     position: relative;
     width: 100%;

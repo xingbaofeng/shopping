@@ -1,3 +1,7 @@
+.header div.new_newscenter_banner{
+    background:url('../img/new_newsbanner.jpg');
+
+}
 .newnews_list{
     width: 1120px;
     margin: 0 auto;

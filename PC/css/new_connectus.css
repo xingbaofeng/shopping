@@ -1,0 +1,103 @@
+
+.header div.new_connerctus_header_photo{
+    background:url('../img/new_connectus_banner.jpg');
+
+}
+/*��ϵ���� contact us*/
+.contact_us{
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 144px;
+}
+.contact_us .span1{
+    font-size: 26px;
+    color: #ffffff;
+}
+.contact_us .span2{
+    font-size: 15px;
+    color: #7a7b7b;
+    padding-left: 16px;
+}
+.contact_information{
+    width: 1120px;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-size: 14px;
+    color: #cccccc;
+    overflow: hidden;
+}
+.contact_information li{
+    width: 373px;
+}
+.form1{
+    width: 1120px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 126px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    color: #cccccc;
+}
+.form1 .form1_information{
+    width: 1120px;
+    margin: 0 auto;
+    height: 62px;
+    line-height: 62px;
+}
+.form1 .form1_information span{
+    display: block;
+    width: 40px;
+    padding-left: 60px;
+    padding-right: 14px;
+    float: left;
+}
+.form1 .form1_information input{
+    display: block;
+    width: 900px;
+    height: 34px;
+    margin: 12px 0;
+    float: left;
+    background: none;
+    border: 1px solid #4d4d4d;
+    padding-left: 10px;
+    color: white;
+
+}
+
+.form1 .form1
+
+.form1 .form1_submit{
+    width: 1120px;
+    margin: 0 auto;
+    height: 82px;
+    line-height: 82px;
+    padding-left: 114px;
+
+
+}
+.form1 p.form1_message {
+    height: 100px;
+}
+.form1 p.form1_message textarea{
+    padding-left: 10px;
+    width: 900px;
+    height: 100px;
+    background: none;
+    border: 1px solid #4d4d4d;
+}
+.form1_submit{
+    padding-left: 114px;
+    margin-top: 10px;
+}
+.form1_submit input{
+    display:block;
+    width: 227px ;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: white;
+    background-color: #f54f4f;
+    border-radius: 3px;
+
+}

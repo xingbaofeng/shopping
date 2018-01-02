@@ -2,9 +2,122 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <!-- 设置360浏览器渲染模式,webkit 为极速内核，ie-comp 为 IE 兼容内核，ie-stand 为 IE 标准内核。 -->
+    <meta name="renderer" content="webkit">
+    <meta name="google" value="notranslate">
+    <!-- 禁止Chrome 浏览器中自动提示翻译 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!-- 禁止百度转码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=0,user-scalable=yes,maximum-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <!-- <link rel="stylesheet" href="css/swiper.min.css"/>-->
+    <link rel="stylesheet" href="css/idangerous.swiper.css">
+    <link rel="stylesheet" href="css/new_index.css"/>
+    <link rel="stylesheet" href="css/new_connectus.css"/>
 </head>
 <body>
+<div class="main">
+    <header class="header">
+        <ul class="header_title">
+            <li class="header_title_left">
+                <img src="img/new_head.jpg" alt="logo"/>
+                <span>天津国艺盛世文化发展有限公司</span>
+            </li>
+            <li class="header_title_right">
 
+                <a  href="new_index.html">首页</a>
+                <a href="new_aboutcompany.html">关于公司</a>
+                <a href="new_serverinformation.html"> 服务咨询</a>
+                <a href="new_newscenter.html">新闻中心</a>
+                <a id="tab_color" href="new_connectus.html">联系我们</a>
+            </li>
+
+
+        </ul>
+        <div class="new_header_photo new_connerctus_header_photo">
+        </div>
+
+    </header>
+    <!--联系我们 contact us-->
+    <div class="contact_us">
+        <span class="span1">联系我们</span><span class="span2">Contact us</span>
+    </div>
+    <ul class="contact_information">
+        <li>
+            <p>地址 ：中国地区XX省XX市XX区XX路</p>
+            <p>手机 ：13000000000</p>
+        </li>
+        <li>
+            <p>邮编 ：100000</p>
+            <p>传真 ：020-00000000</p>
+        </li>
+        <li>
+            <p>电话 ：020-00000000</p>
+            <p>邮箱：contact@fkadjkhsf.co</p>
+        </li>
+
+    </ul>
+    <form class="form1">
+        <p class="form1_information">
+            <span>姓名</span>
+            <input type="text" name="user" />
+        </p>
+        <p class="form1_information">
+            <span>电话</span>
+            <input type="text" name="telephone" />
+        </p>
+        <p class="form1_information form1_message">
+            <span>留言</span>
+            <textarea name="message" ></textarea>
+        </p>
+        <br/>
+        <p class="form1_submit">
+            <input type="button"  value="提交"/>
+        </p>
+    </form>
+    <div class="footer">
+        <div class="footer_con">
+            <p class="footer_title">Cultural Media Design</p>
+
+            <p class="footer_link">
+                <a href="###">关于我们</a>
+                <a href="###">服务咨询</a>
+                <a href="###">新闻中心</a>
+                <a href="###">联系我们</a>
+            </p>
+            <p class="footer_line"></p>
+            <p class="footer_last" style="font-size: 0">
+                <a href="">Copyright 2017 天津国艺盛世文化发展有限公司All Rights Reserved</a>
+                <a class="footer_last_spe" href="">津ICP备17010914号</a>
+                <a href="">手机版</a>
+            </p>
+        </div>
+    </div>
+
+
+</div>
+<!-- Swiper JS -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--<script src="js/swiper.min.js"></script>-->
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/index.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        autoplay : 3000,
+        loop : true,
+
+    });
+    document.getElementById('lunbo-prev').onclick=function(){
+        swiper.swipePrev();
+    }
+    document.getElementById('lunbo-next').onclick=function(){
+        swiper.swipeNext();
+    }
+</script>
 </body>
 </html>
