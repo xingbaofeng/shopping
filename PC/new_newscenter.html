@@ -2,9 +2,127 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <!-- 设置360浏览器渲染模式,webkit 为极速内核，ie-comp 为 IE 兼容内核，ie-stand 为 IE 标准内核。 -->
+    <meta name="renderer" content="webkit">
+    <meta name="google" value="notranslate">
+    <!-- 禁止Chrome 浏览器中自动提示翻译 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!-- 禁止百度转码 -->
+    <meta name="viewport" content="width=device-width, initial-scale=0,user-scalable=yes,maximum-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <!-- <link rel="stylesheet" href="css/swiper.min.css"/>-->
+    <link rel="stylesheet" href="css/idangerous.swiper.css">
+    <link rel="stylesheet" href="css/new_index.css"/>
+    <link rel="stylesheet" href="css/new_newscenter.css">
 </head>
 <body>
+<div class="main">
+    <header class="header">
+        <ul class="header_title">
+            <li class="header_title_left">
+                <img src="img/new_head.jpg" alt="logo"/>
+                <span>天津国艺盛世文化发展有限公司</span>
+            </li>
+            <li class="header_title_right">
 
+                <a id="tab_color" href="new_index.html">首页</a>
+                <a href="new_aboutcompany.html">关于公司</a>
+                <a href="new_serverinformation.html"> 服务咨询</a>
+                <a href="new_newscenter.html">新闻中心</a>
+                <a href="new_connectus.html">联系我们</a>
+            </li>
+
+
+        </ul>
+        <div class="new_header_photo">
+            <img class="new_header_photo_small" src="img/new_header_small.png" alt=""/>
+        </div>
+
+    </header>
+
+
+
+    <div class="new_server" style="height: 790px;background-color: #131313">
+        <div class="new_ser">
+            <div class="new_ser_title">新闻资讯<span>News information</span></div>
+        </div>
+        <div class="new_ser_con">
+            <ul class="info_ul">
+                <li class="info_fir">
+                    <img src="img/new_fir.jpg" alt=""/>
+                    <p>怎样的建窑黑釉才能称<br>得上“鹧鸪斑”呢?</p>
+                </li>
+                <li class="info_sec">
+                    <p class="info_more"  style="background-color: #000000">窑神的礼物之鹧鸪斑 <span>“鹧鸪斑”一词在宋代文献中常有出现，如陶谷《清异录》中载：“闽中造盏，花纹鹧鸪斑点，试茶家珍之。”《方舆胜朗》载：“兔毫盏，出瓯宁之水吉。黄鲁直诗曰：„建安瓷碗鹧鸪斑。‟”僧惠洪诗中也写道：“点茶三味须饶汝，鹧鸪斑中吸春露。”陈蹇叔也在诗文中赞道：“鹧鸪王冕运输宇，兔毫瓯心雪作泓。””可见，宋代建窑不仅生产鹧鸪斑，而且也充分得到了文亚士们的首肯。</span></p>
+                    <img style="height: 54%" src="img/new_sec.jpg" alt=""/>
+
+                </li>
+                <li class="info_thi">
+                    <img src="img/new_thi.jpg" alt=""/>
+                    <p>广告宣传片制作之国际家<br>居品牌Vitsoe</p>
+                </li>
+                <li class="info_four">
+                    <img src="img/new_four.jpg" alt=""/>
+                    <p>传媒互联网行业：海外公<br>司财报预示教育板块长期</p>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+    <div class="newnews_list">
+        <div>
+            <div class="newnews_listrow">
+                <div class="newnews_newsCalendar">
+                    <div class="newnews_CalendarDay">28</div>
+                    <div class="newnews_CalendarYears">2017/12</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_con">
+            <p class="footer_title">Cultural Media Design</p>
+
+            <p class="footer_link">
+                <a href="###">关于我们</a>
+                <a href="###">服务咨询</a>
+                <a href="###">新闻中心</a>
+                <a href="###">联系我们</a>
+            </p>
+            <p class="footer_line"></p>
+            <p class="footer_last" style="font-size: 0">
+                <a href="">Copyright 2017 天津国艺盛世文化发展有限公司All Rights Reserved</a>
+                <a class="footer_last_spe" href="">津ICP备17010914号</a>
+                <a href="">手机版</a>
+            </p>
+        </div>
+    </div>
+
+
+</div>
+<!-- Swiper JS -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--<script src="js/swiper.min.js"></script>-->
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/index.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        autoplay : 3000,
+        loop : true,
+
+    });
+    document.getElementById('lunbo-prev').onclick=function(){
+        swiper.swipePrev();
+    }
+    document.getElementById('lunbo-next').onclick=function(){
+        swiper.swipeNext();
+    }
+</script>
 </body>
 </html>
