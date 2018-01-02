@@ -122,12 +122,12 @@
     </div>
     <div class="new_table">
         <div class="new_table_tab">
-            <ul class="">
+            <ul class="" id="newsevertab">
                 <li class="tab_li_cur"><a class="tab_cur" href="">热门新闻</a></li>
                 <li><a href="">全部作品</a></li>
             </ul>
         </div>
-        <div class="new_table_con new_serverhot">
+        <div class="new_table_con new_serverhot" id="newsevertabcontent">
             <ul class="new_serverhotul">
                 <li>
                     <img src="img/new_tab1.png" alt=""/>
@@ -221,6 +221,15 @@
 
                     <p> “鹧鸪斑”一词在宋代文献中常有出现，如陶谷《清异录》中载：“闽中造盏，花纹鹧鸪斑点，试茶家珍之。”《方舆胜朗》...</p>
                 </li>
+                <li>
+                    <img src="img/new_tab1.png" alt=""/>
+
+                    <h3>
+                        <a href="###">窑神的礼物之鹧鸪斑</a>
+                    </h3>
+
+                    <p> “鹧鸪斑”一词在宋代文献中常有出现，如陶谷《清异录》中载：“闽中造盏，花纹鹧鸪斑点，试茶家珍之。”《方舆胜朗》...</p>
+                </li>
             </ul>
 
         </div>
@@ -255,17 +264,14 @@
 
 <!-- Initialize Swiper -->
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        autoplay : 3000,
-        loop : true,
+ $("#newsevertab").children().hover(function (e) {
+     $(this).addClass('tab_li_cur').siblings().removeClass('tab_li_cur');
+     $(this).children('a').css({color:"red"})
+     $(this).siblings().children('a').css({color:"#999999"})
+     $("#newsevertabcontent").children().eq($(this).index()).show().siblings().hide();
+ }, function () {
 
-    });
-    document.getElementById('lunbo-prev').onclick=function(){
-        swiper.swipePrev();
-    }
-    document.getElementById('lunbo-next').onclick=function(){
-        swiper.swipeNext();
-    }
+ })
 </script>
 </body>
 </html>
