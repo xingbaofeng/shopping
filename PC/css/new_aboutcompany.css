@@ -2,7 +2,7 @@
     color:rgb(102, 102, 102);
 }
 
-.header div.new_about_banner{
+.header #new_about_banner{
     background:url('../img/new_aboutsimplebanner.jpg');
 
 }
