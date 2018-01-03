@@ -1,0 +1,55 @@
+.newsdetail-banner{
+    width: 100%;
+    overflow: hidden;
+    height: 770px;
+    position: relative;
+
+}
+.newsdber-left{
+    background: url("../img/newsdetailleft.png") no-repeat;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    margin-top: -36px;
+    cursor: pointer;
+}
+.newsdber-right{
+    background: url("../img/newsdetailright.png") no-repeat;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    margin-top: -36px;
+    cursor: pointer;
+}
+.newsdetail-jianjie{
+    width: 1120px;
+    margin: 0 auto;
+}
+.newsdetail-jjname{
+color: #808080;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.newsdetail-jjtitle{
+    text-align: center;
+    font-size: 18px;
+    margin: 5px 0 5px 0;
+    color: rgb(102, 102, 102);
+    padding-bottom: 10px;
+}
+.newsdetail-jjimg{
+    margin: 0 auto;
+    width: 1120px;
+    text-align: center;
+}
+.newsdetail-jjneirong{
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    padding-bottom:63px ;
+}

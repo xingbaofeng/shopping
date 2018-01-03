@@ -66,6 +66,16 @@
     line-height: 24px;
     color: rgb(102, 102, 102);
 }
+
 .new_serverhot ul.new_serverhotul li{
     margin-bottom: 20px;
+    position: relative;
+}
+.new_serverhotullik{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

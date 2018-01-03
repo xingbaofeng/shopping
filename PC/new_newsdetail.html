@@ -16,7 +16,8 @@
     <!-- <link rel="stylesheet" href="css/swiper.min.css"/>-->
     <link rel="stylesheet" href="css/idangerous.swiper.css">
     <link rel="stylesheet" href="css/new_index.css"/>
-    <link rel="stylesheet" href="css/new_connectus.css"/>
+    <link rel="stylesheet" href="css/new_newsdetail.css"/>
+    <!--动画-->
     <link rel="stylesheet" href="css/animate.css"/>
 </head>
 <body>
@@ -31,55 +32,36 @@
 
                 <a  href="new_index.html">首页</a>
                 <a href="new_aboutcompany.html">关于公司</a>
-                <a href="new_serverinformation.html"> 服务咨询</a>
+                <a id="tab_color" href="new_serverinformation.html"> 服务咨询</a>
                 <a href="new_newscenter.html">新闻中心</a>
-                <a id="tab_color" href="new_connectus.html">联系我们</a>
+                <a href="new_connectus.html">联系我们</a>
             </li>
 
 
         </ul>
-        <div class="new_header_photo2 new_connerctus_header_photo"style='background: url("img/new_connectus_banner.jpg"); background-position: 50% 50%;
-    background-repeat: no-repeat;'>
-        </div>
+
 
     </header>
-    <!--联系我们 contact us-->
-    <div class="contact_us bounceInUp animated wow">
-        <span class="span1">联系我们</span><span class="span2">Contact us</span>
-    </div>
-    <ul class="contact_information">
-        <li class="bounceInUp animated wow">
-            <p>地址 ：中国地区XX省XX市XX区XX路</p>
-            <p>手机 ：13000000000</p>
-        </li>
-        <li class="bounceInUp animated wow">
-            <p>邮编 ：100000</p>
-            <p>传真 ：020-00000000</p>
-        </li>
-        <li class="bounceInUp animated wow">
-            <p>电话 ：020-00000000</p>
-            <p>邮箱：contact@fkadjkhsf.co</p>
-        </li>
 
-    </ul>
-    <form class="form1">
-        <p class="form1_information bounceInUp animated wow">
-            <span>姓名</span>
-            <input type="text" name="user" />
-        </p>
-        <p class="form1_information bounceInUp animated wow">
-            <span>电话</span>
-            <input type="text" name="telephone" />
-        </p>
-        <p class="form1_information form1_message bounceInUp animated wow">
-            <span>留言</span>
-            <textarea name="message" ></textarea>
-        </p>
-        <br/>
-        <p class="form1_submit bounceInUp animated wow">
-            <input type="button"  value="提交"/>
-        </p>
-    </form>
+    <div class="newsdetail-banner swiper-container" >
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <img src="img/newsdetailbanner.png" alt="">
+            </li>
+            <li class="swiper-slide">
+                <img src="img/newsdetailbanner.png" alt="">
+            </li>
+
+        </ul>
+        <div id="lunbo-prev" class="newsdber-left"></div>
+        <div id="lunbo-next" class="newsdber-right"></div>
+    </div>
+    <div class="newsdetail-jianjie">
+        <p class="newsdetail-jjname">新闻详情</p>
+        <div class="newsdetail-jjtitle">丁明鸿掐丝珐琅青花三宝</div>
+        <div class="newsdetail-jjimg"><img src="img/newsdetailjjimg1.png" alt=""></div>
+        <p class="newsdetail-jjneirong">安康，团圆，富贵被称為人生追求的三大梦想，《掐丝珐瑯-青花三宝》三件套便是顺应这个美好寓意而由著名景泰蓝大师丁明鸿先生亲自担纲设计监製，三件套器大气敦实，流线优雅赋以美感，铜胎之外白底上蓝色线条勾勒出图样的优美曲线，每件作品上均有100个同心圆，代表同心同德，万事圆满，吉庆如意，蓝白间色彩搭配鲜明准确，布局合理精妙，期间掐丝的金黄色在光线下熠熠生辉，处处透露出她皇家御用的高贵身份。作品不仅含蕴先进的设计理念，更是把景泰蓝传统技艺与中华古典青花文化完美结合，开创业界先河。整套作品高低错落有致，器形格调高雅，色彩乾净利落，爽心悦目。一经问世便荣膺全国艺术收藏品行业最高荣誉——优秀收藏品金奖。</p>
+    </div>
     <div class="footer">
         <div class="footer_con">
             <p class="footer_title">Cultural Media Design</p>
@@ -110,7 +92,7 @@
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper('.swiper-container', {
-        autoplay : 3000,
+        autoplay : 5000,
         loop : true,
 
     });
