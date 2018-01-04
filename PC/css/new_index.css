@@ -122,7 +122,7 @@ overflow: hidden;
     text-align: left;
     width: 500px;height: 250px;
     position: absolute;
-    right:80px;
+    right:12%;
     top:160px;
 }
 /*header*/
@@ -377,11 +377,12 @@ display: none;
     font-size: 14px;
 }
 .oswip2_exp{
+    width: 730px;
     margin-top: 30px;
     color: rgb(102, 102, 102);
     font-size: 12px;
     height: 20px;
-    line-height: 20px;
+    line-height: 26px;
 }
 
 .lunbo{
@@ -424,7 +425,7 @@ height: 620px;
 .swiper-button-next{
     z-index: 222;
     position: absolute;
-    right: 12px;
+    right: 0;
     top: 50%;
     margin-top: -35px;
     border-radius: 6px;
@@ -443,7 +444,7 @@ height: 620px;
     z-index: 222;
     position: absolute;
     top: 50%;
-    left: 12px;
+    left: 0;
     margin-top: -35px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -467,7 +468,7 @@ height: 620px;
 .swiper-button-next{
     z-index: 222;
     position: absolute;
-    right: 12px;
+    right: 0;
     top: 50%;
     background-color: #bfbabf;
     margin-top: -35px;
