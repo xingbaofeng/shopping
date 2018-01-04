@@ -80,11 +80,13 @@
     height: 100px;
 }
 .form1 p.form1_message textarea{
-    padding-left: 10px;
+    padding: 10px;
     width: 900px;
     height: 100px;
     background: none;
     border: 1px solid #4d4d4d;
+    color: #ffffff;
+
 }
 .form1_submit{
     padding-left: 114px;
