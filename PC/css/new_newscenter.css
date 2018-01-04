@@ -63,6 +63,13 @@
 .newnews_linetitle a{
     font-size: 18px;
     color:#ffffff ;
+    text-decoration: none;
+
+}
+.newnews_linetitle a:hover{
+
+    color: #f13a3a;
+    text-decoration: none;
 
 }
 .newnews_newsListSummary{

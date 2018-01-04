@@ -174,7 +174,8 @@ overflow: hidden;
     width: 1200px;
     margin: 0 auto;
     clear: both;
-    padding-top: 40px;
+
+
 
 }
 .new_table_con ul li{
@@ -183,6 +184,7 @@ overflow: hidden;
 
     margin-left: 40px;
     background-color: #ffffff;
+    margin-top: 40px;
 
 }
 .new_table_con ul li img{
@@ -240,7 +242,7 @@ color: #7a7b7b;
 }
 .new_ser_conl{
     display: inline-block;
-    width: 220px;
+    width: 200px;
     text-align: center;
 
 
@@ -289,14 +291,16 @@ display: none;
     margin-top: 35px;
     font-size: 12px;
     color: #999999;
-    height: 20px;
     line-height: 20px;
+    height: auto;
 }
 .new_ser_conr .tuiguangmore{
     display: inline-block;
-    margin-top: 100px;
+
     color: rgb(102, 102, 102);
     font-size: 14px;
+    margin-top: 15px;
+
 }
 .new_ser_conr li{
     float: left;
@@ -326,25 +330,35 @@ display: none;
 .new_swiper{
     overflow: hidden;
     background: #151515;
-    width: 1120px;
+    width: 1100px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .oswip{
     display: inline-block;
 }
 .oswip1{
-    width: 235px;
-    height: 315px;
+    width: 214px;
+    height: 299px;
     background-color: #696969;
-    position: relative;
+
+    z-index: 2;
+
+
 
 
 }
-.oswip1 img{
+.new_swiper img.abc{
+    width: 214px;
+    height: 299px;
     position: absolute;
     top:0;
     left:0;
+    z-index: 3;
+
 }
 .oswip2{
     margin-left: 60px;
@@ -569,7 +583,7 @@ height: 620px;
 }
 .new_ser_con ul.info_ul li p{
     height: 75px;
-    line-height: 25px;
+    line-height: 43px;
     width: 205px;
     background-color: #2b2b2b;
 
@@ -594,6 +608,7 @@ height: 620px;
     line-height: 22px;
     padding: 10px;
     text-align: left;
+    padding-top:0;
 }
 .new_ser_con ul.info_ul li.info_sec p{
     padding-top: 10px;
