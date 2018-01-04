@@ -18,6 +18,15 @@
     <link rel="stylesheet" href="css/new_index.css"/>
     <link rel="stylesheet" href="css/new_aboutcompany.css">
     <link rel="stylesheet" href="css/animate.css"/>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?994a4eddd521fc1e1b1289fc9c75f451";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body>
 <div class="main">
@@ -49,6 +58,7 @@
         <div class="lunbo">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <!--如果想增加轮播图数量在这里-->
                     <div class="swiper-slide">
                         <div class="new_server" style="background-color: #151515;padding-bottom: 90px">
                             <div class="new_ser">
@@ -239,13 +249,14 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <!--<script src="js/swiper.min.js"></script>-->
 <script src="js/idangerous.swiper.min.js"></script>
-<script src="js/index.js"></script>
+
 
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper('.swiper-container', {
         autoplay : 3000,
         loop : true,
+        speed:2000,
 
     });
     document.getElementById('lunbo-prev').onclick=function(){
@@ -254,17 +265,35 @@
     document.getElementById('lunbo-next').onclick=function(){
         swiper.swipeNext();
     }
+
 </script>
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript">
-    var wow = new WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
-        offset: 0,
-        mobile: true,
-        live: true
-    });
-    wow.init();
+    var browser=navigator.appName
+
+    var b_version=navigator.appVersion
+
+    var version=b_version.split(";");
+
+    var trim_Version=version[1].replace(/[ ]/g,"");
+
+    if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0")
+    {}
+
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0")
+    {}
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0")
+    {}
+    else{
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        });
+        wow.init();
+    }
 </script>
 </body>
 </html>

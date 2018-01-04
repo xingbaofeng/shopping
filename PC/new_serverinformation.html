@@ -19,6 +19,15 @@
     <link rel="stylesheet" href="css/new_serverinformation.css"/>
     <!--动画-->
     <link rel="stylesheet" href="css/animate.css"/>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?994a4eddd521fc1e1b1289fc9c75f451";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body>
 <div class="main">
@@ -51,6 +60,7 @@
             <font style="font-size: 15px;color:rgb(102, 102, 102) ">Service Items</font>
 
         </div>
+        <!--增加服务项目这里-->
         <div class="new_serverformsild">
             <div class="new_serverformsildl">
                 <img class="bounceInUp animated wow" src="img/shexiangji.jpg" alt=""/>
@@ -224,7 +234,7 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <!--<script src="js/swiper.min.js"></script>-->
 <script src="js/idangerous.swiper.min.js"></script>
-<script src="js/new_index.js"></script>
+
 
 <!-- Initialize Swiper -->
 <script>
@@ -239,14 +249,40 @@
 </script>
 <script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript">
-    var wow = new WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
-        offset: 0,
-        mobile: true,
-        live: true
+    /*点击热门新闻和最新新闻*/
+    $('#newCLICK ul li').hover(function(){
+        $(this).parent().find('a').removeClass('tab_cur');
+        $(this).parent().find('li').removeClass('tab_li_cur');
+        $(this).find('a').addClass('tab_cur');
+        $(this).addClass('tab_li_cur');
+        $('#new_table0,#new_table1').hide();
+        $('#new_table'+$(this).index()).show()
     });
-    wow.init();
+    var browser=navigator.appName
+
+    var b_version=navigator.appVersion
+
+    var version=b_version.split(";");
+
+    var trim_Version=version[1].replace(/[ ]/g,"");
+
+    if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0")
+    {}
+
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0")
+    {}
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0")
+    {}
+    else{
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        });
+        wow.init();
+    }
 </script>
 </body>
 </html>

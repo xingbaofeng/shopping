@@ -17,6 +17,15 @@
     <link rel="stylesheet" href="css/idangerous.swiper.css">
     <link rel="stylesheet" href="css/new_index.css"/>
     <link rel="stylesheet" href="css/animate.css"/>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?994a4eddd521fc1e1b1289fc9c75f451";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body>
 <div class="main">
@@ -51,6 +60,7 @@
         </div>
         <div class="new_table_con" id="new_table0">
             <ul>
+                <!--热门新闻增加数据这里-->
                 <li>
                     <a href="new_newsdetail.html"><img class="bounceInUp animated wow" src="img/new_third.jpg" alt=""/>
                     </a>
@@ -87,6 +97,7 @@
         </div>
         <div class="new_table_con" id="new_table1" style="display: none">
             <ul>
+                <!--最新新闻数据添加这里-->
                 <li><a href="new_newsdetail.html">
                     <img src="img/new_third.jpg" alt=""/>
 </a>
@@ -127,6 +138,7 @@
             <ul>
                 <li class="new_ser_conl" id="new_ser_conl">
                     <ul>
+                        <!--增加服务项目这里-->
                         <li class="new_ser_conl_cur" style="border-bottom: none">学术推广</li>
                         <li>展览展示</li>
                         <li>高端品鉴</li>
@@ -134,6 +146,7 @@
                     </ul>
                 </li>
                 <li class="new_ser_conr">
+                    <!--增加服务项目的详情这里-->
                     <ul>
                         <li class="new_ser_li_l"><img src="img/new_tui1.jpg" alt=""/></li>
                         <li class="new_ser_li_r">
@@ -198,6 +211,7 @@
         <div class="lunbo">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
+                    <!--轮播图增加-->
                     <div class="swiper-slide">
                         <div class="new_server" style="background-color: #151515;padding-bottom: 90px">
                             <div class="new_ser">
@@ -405,13 +419,37 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <!--<script src="js/swiper.min.js"></script>-->
 <script src="js/idangerous.swiper.min.js"></script>
-<script src="js/new_index.js"></script>
+
 <script type="text/javascript" src="js/wow.min.js"></script>
 <!-- Initialize Swiper -->
 <script>
+    $(function(){
+        /*点击热门新闻和最新新闻*/
+        $('#newCLICK ul li').hover(function(){
+            $(this).parent().find('a').removeClass('tab_cur');
+            $(this).parent().find('li').removeClass('tab_li_cur');
+            $(this).find('a').addClass('tab_cur');
+            $(this).addClass('tab_li_cur');
+            $('#new_table0,#new_table1').hide();
+            $('#new_table'+$(this).index()).show()
+        });
+        /*学术推广的划过效果*/
+        /*1.给下面的区域都加上合适的id*/
+        $('.new_ser_conr ul').each(function(){
+            $(this).prop('id','new_ser_tui'+$(this).index())
+        })
+        $('#new_ser_conl ul li').hover(function(){
+            $(this).css('border-bottom','none').siblings().css('border-bottom','1px solid #F2F2F2');
+            $(this).addClass('new_ser_conl_cur').siblings().removeClass('new_ser_conl_cur');
+            $('#new_ser_tui0,#new_ser_tui1,#new_ser_tui2,#new_ser_tui3').hide();
+            $('#new_ser_tui'+$(this).index()).show();
+        })
+
+    })
     var swiper = new Swiper('.swiper-container', {
         autoplay : 5000,
         loop : true,
+        speed:2000,
 
     });
     document.getElementById('lunbo-prev').onclick=function(){
@@ -420,16 +458,32 @@
     document.getElementById('lunbo-next').onclick=function(){
         swiper.swipeNext();
     }
+    var browser=navigator.appName
+
+    var b_version=navigator.appVersion
+
+    var version=b_version.split(";");
+
+    var trim_Version=version[1].replace(/[ ]/g,"");
+
+    if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0")
+    {}
+
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0")
+    {}
+    else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0")
+    {}
+    else{
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        });
+        wow.init();
+    }
 </script>
-<script type="text/javascript">
-    var wow = new WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
-        offset: 0,
-        mobile: true,
-        live: true
-    });
-    wow.init();
-</script>
+
 </body>
 </html>
