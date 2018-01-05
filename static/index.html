@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html style="font-size: 100px">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>工美微官网</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+
+    </script>
+
+</head>
+<body>
+<!--logo-->
+<div class="hd">
+    <a class="hd-a" href="">
+
+        <img src="images/logo.jpg" alt=""/>
+    </a>
+</div>
+<!--轮播图-->
+<div id="swiperone" class="br swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="appreciatedetails.html">
+                    <img src="images/topbanner1.jpg" alt=""/>
+                    <p class="br-text">
+                        【建盏知识】窑神的礼物之油滴釉
+                    </p>
+                </a>
+
+            </div>
+            <div class="swiper-slide">
+                <a href="appreciatedetails.html"><img src="images/topbanner2.jpg" alt=""/>
+                    <p class="br-text">
+                        【建盏知识】窑神的礼物之鹧鸪斑
+                    </p>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="appreciatedetails.html"><img src="images/topbanner3.jpg" alt=""/>
+                    <p class="br-text">
+                        匠人精神带动收藏市场走向春天
+                    </p>
+                </a></div>
+            <div class="swiper-slide">
+                <a href="appreciatedetails.html"><img src="images/topbanner4.jpg" alt=""/>
+                    <p class="br-text">
+                        天津国艺盛世艺术馆盛大开馆!
+                    </p>
+                </a></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div id="swiper-pagination1" class=" swiper-pagination" style="left:80%;bottom: 0;width: 1.5rem"></div>
+
+
+    </div>
+
+
+
+<!--馆藏鉴赏-->
+<div class="appreciate">
+    <div class="appreciate-tit">
+        <h3>馆藏鉴赏</h3>
+        <a href="appreciate.html">查看全部</a>
+    </div>
+    <div class="appreciate-cont">
+        <ul class="appreciate-tabtitle">
+            <li class="appreciate-active"><h4>书画</h4></li>
+            <li><h4>雕刻</h4></li>
+            <li><h4>雕塑</h4></li>
+            <li>
+                <h4>陶瓷</h4>
+            </li>
+        </ul>
+        <div class="appreciate-list">
+            <ul class="appreciate-list-u">
+                <li><a href="appreciatedetails.html"><span></span> <p>李伯虎作品1</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+
+            </ul>
+            <ul class="appreciate-list-u displaynone">
+                <li><a href=""><span></span> <p>李伯虎作品2</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+
+            </ul>
+            <ul class="appreciate-list-u displaynone">
+                <li><a href=""><span></span> <p>李伯虎作品3</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+
+            </ul>
+            <ul class="appreciate-list-u displaynone">
+                <li><a href=""><span></span> <p>李伯虎作品4</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--轮博图-->
+<div id="swipertwo" class="br swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="newsdetails.html">
+                <img src="images/newbanner1.jpg" alt=""/>
+                <p class="br-text">
+                    【建盏知识】窑神的礼物之油滴釉
+                </p>
+            </a>
+
+        </div>
+        <div class="swiper-slide">
+            <a href="newsdetails.html"><img src="images/newbanner2.jpg" alt=""/>
+                <p class="br-text">
+                    【建盏知识】窑神的礼物之鹧鸪斑
+                </p>
+            </a>
+        </div>
+        <div class="swiper-slide">
+            <a href="newsdetails.html"><img src="images/newbanner3.jpg" alt=""/>
+                <p class="br-text">
+                    匠人精神带动收藏市场走向春天
+                </p>
+            </a></div>
+        <div class="swiper-slide">
+            <a href="newsdetails.html"><img src="images/newbanner4.jpg" alt=""/>
+                <p class="br-text">
+                    天津国艺盛世艺术馆盛大开馆!
+                </p>
+            </a></div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div id="swiper-pagination2" class=" swiper-pagination" style="left: 80%;bottom: 0;width: 1.5rem"></div>
+
+
+</div>
+<!--新闻列表-->
+<div class="news">
+    <div class="news-title">
+        <h2 class="">国艺新闻</h2>
+        <a href="news.html">
+            查看全部
+        </a>
+    </div>
+
+    <ul class="news-list">
+        <li>
+            <a href="newsdetails.html">
+                <img src="images/newsuolue1.jpg" alt=""/>
+                <div class="news-cont"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+
+        </li>
+        <li>
+            <a href="">
+                <img src="images/newsuolue2.jpg" alt=""/>
+                <div class="news-cont"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="images/newsuolue3.jpg" alt=""/>
+                <div class="news-cont"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+        </li>
+
+    </ul>
+</div>
+<footer class="f-t">
+    <p class="f-t-c">Copyright©2017 天津国艺盛世文化发展有限公司 All Rights reserved 津ICP备17010914号</p>
+    <address>地址：天津市西青区梓园路8号百泰集团</address>
+    <p class="f-t-line">客服热线:15620866076</p>
+</footer>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('#swiperone', {
+        // 如果需要分页器
+        pagination: {
+            el: '#swiper-pagination1',
+            hiddenClass:"br-bulletActive"
+        },
+        autoplay: {
+         delay: 3000,
+         stopOnLastSlide: false,
+         disableOnInteraction: false,
+         }
+
+    });
+    mySwiper.pagination.$el.addClass('br-pagination')
+    mySwiper.pagination.bullets.css('background','black');
+
+
+    var mySwiper2 = new Swiper ('#swipertwo', {
+        // 如果需要分页器
+        pagination: {
+            el: '#swiper-pagination2',
+            hiddenClass:"br-bulletActive"
+        },
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+        }
+
+    });
+    mySwiper2.pagination.$el.addClass('br-pagination')
+    mySwiper2.pagination.bullets.css('background','black');
+</script>
+<script>
+    //底部工美鉴赏切换
+    $('.appreciate-tabtitle li').on('click',function(){
+       var index=$(this).index();
+        $(this).addClass('appreciate-active').siblings().removeClass('appreciate-active');
+        $('.appreciate-list ul').eq($(this).index()).css({
+            display:"block"
+        }).siblings().css({
+            display:"none"
+        })
+    })
+</script>
+</body>
+</html>

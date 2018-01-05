@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html style="font-size: 100px">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>工美微官网</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+
+    </script>
+
+</head>
+<body>
+<!--工美鉴赏-->
+<div class="appreciate">
+
+    <div class="appreciate-cont">
+        <ul class="appreciate-tabtitle">
+            <li class="appreciate-active">
+                <h4>书画</h4>
+            </li>
+            <li>
+                <h4>雕刻</h4>
+            </li>
+            <li>
+                <h4>雕塑</h4>
+            </li>
+            <li>
+                <h4>陶瓷</h4>
+            </li>
+        </ul>
+        <div class="appreciate-list">
+            <ul class="appreciate-list-u">
+                <li><a href=""><span></span> <p>李伯虎作品1</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+            </ul>
+            <ul class="appreciate-list-u displaynone">
+                <li><a href=""><span></span> <p>李伯虎作品2</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+            </ul>
+            <ul class="appreciate-list-u displaynone">
+                <li><a href=""><span></span> <p>李伯虎作品3</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+            </ul>
+            <ul class="appreciate-list-u displaynone">
+                <li><a href=""><span></span> <p>李伯虎作品4</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+                <li><a href=""><span></span> <p>李伯虎作品</p></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    //底部工美鉴赏切换
+    $('.appreciate-tabtitle li').on('click',function(){
+       var index=$(this).index();
+        $(this).addClass('appreciate-active').siblings().removeClass('appreciate-active');
+        $('.appreciate-list ul').eq($(this).index()).css({
+            display:"block"
+        }).siblings().css({
+            display:"none"
+        })
+    })
+</script>
+</body>
+</html>

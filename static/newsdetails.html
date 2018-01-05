@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html style="font-size: 100px">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>工美微官网</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+
+    </script>
+
+</head>
+<body style="background: black">
+<!--标题-->
+<div class="newsdetails-hd">
+    <p class="newsdetails-hd-title">关于启用“国家工美防伪标签认证查询”的公告</p>
+    <p class="newsdetails-hd-date">2017年05月02日</p>
+    <div class="newsdetails-hd-line"></div>
+</div>
+<!--图片-->
+<div class="newsdetails-content">
+    <!--大图-->
+    <div class="newsdetails-content-li"><img src="images/newdetails1.jpg" alt=""/></div>
+    <!--小图-->
+    <div class="newsdetails-content-li-min"><img src="images/newdetails2.jpg" alt=""/></div>
+
+
+</div>
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

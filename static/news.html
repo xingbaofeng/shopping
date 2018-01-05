@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html style="font-size: 100px">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>工美微官网</title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        if(clientWidth>=750){
+                            docEl.style.fontSize = '100px';
+                        }else{
+                            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                        }
+                    };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+
+    </script>
+
+</head>
+<body>
+
+<header class="news-hd">
+
+    <div class="news-hd-search">
+        <div class=""></div>
+        <input type="text"/>
+        <p class="n-h-s-b"></p>
+    </div>
+</header>
+<!--新闻列表-->
+<div class="news">
+    <h2 class="news-title">国艺新闻</h2>
+    <ul class="news-list">
+        <li>
+            <a href="newsdetails.html">
+                <img src="images/newsuolue3.jpg" alt=""/>
+                <div class="news-cont news-cont-list"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+
+        </li>
+        <li>
+            <a href="">
+                <img src="images/newsuolue3.jpg" alt=""/>
+                <div class="news-cont news-cont-list"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="images/newsuolue3.jpg" alt=""/>
+                <div class="news-cont news-cont-list"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="images/newsuolue3.jpg" alt=""/>
+                <div class="news-cont news-cont-list"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+        </li>
+        <li class="">
+            <a href="">
+                <img src="images/newimg1.png" alt=""/>
+                <div class="news-cont news-cont-list"><p>关于启用“国家工美防伪标签认证”</p>
+                    <div class="news-date">2014-12-13</div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    $(".news-hd-l").on('click',function(){
+        window.location.href='index.html'
+    })
+</script>
+</body>
+</html>
