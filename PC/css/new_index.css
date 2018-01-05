@@ -122,7 +122,7 @@ overflow: hidden;
     text-align: left;
     width: 500px;height: 250px;
     position: absolute;
-    right:80px;
+    right:12%;
     top:160px;
 }
 /*header*/
@@ -377,11 +377,12 @@ display: none;
     font-size: 14px;
 }
 .oswip2_exp{
+    width: 730px;
     margin-top: 30px;
     color: rgb(102, 102, 102);
     font-size: 12px;
     height: 20px;
-    line-height: 20px;
+    line-height: 26px;
 }
 
 .lunbo{
@@ -422,35 +423,39 @@ height: 620px;
     width: 100%;height: 100%;
 }
 .swiper-button-next{
+    z-index: 222;
     position: absolute;
-    right: 12px;
+    right: 0;
     top: 50%;
     margin-top: -35px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
-    height: 71px;
-    width: 71px;
+    height: 80px;
+    width: 81px;
     cursor: pointer;
     /*background: url("../img/right.png") no-repeat rgba(0,0,0,0.1);*/
     background-image: url("../img/vbg01.png");
     background-repeat: no-repeat;
+    opacity: .5;
 }
 
 .swiper-button-prev{
 
     z-index: 222;
     position: absolute;
-    left: 12px;
+    top: 50%;
+    left: 0;
     margin-top: -35px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
 
     width: 80px;
     height: 81px;
-    top: 50%;
+
     cursor: pointer;
     /*background-color: red;*/
-    background: url("../img/vbg01.png")no-repeat;
+    background-image: url("../img/vbg01.png");
+    background-repeat: no-repeat;
     background-position: -875px 15px;
     opacity: .5;
 
@@ -463,14 +468,14 @@ height: 620px;
 .swiper-button-next{
     z-index: 222;
     position: absolute;
-    right: 12px;
+    right: 0;
     top: 50%;
     background-color: #bfbabf;
     margin-top: -35px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
-    height: 80px;
-    width: 81px;
+    height: 81px;
+    width: 80px;
     cursor: pointer;
     /*background-color: red;*/
     background: url("../img/vbg01.png")no-repeat;
