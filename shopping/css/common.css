@@ -116,4 +116,47 @@ select{-webkit-appearance:none;/*�����ı䰴ť�������ؼ�
     margin: 0 auto;
     background-color: #f2f2f2;
 
+
+}
+.floor{
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    overflow:auto;
+
+
+}
+.mask{
+    max-width: 3rem;
+    max-height: 2.5rem;
+    background-color: #f1f1f1;
+    position: absolute;
+
+    z-index: 9999;
+    text-align: center;
+    border-radius: 10px;
+}
+.mask_con{
+    margin: .6rem;
+    font-size: .16rem;
+    color: #f51c23;
+}
+.mask_btn{
+    text-align: center;
+    margin-top: .3rem;
+    width: .8rem;
+    height: .35rem;
+    text-underline: none;
+    outline: none;
+    border: none;
+    background-color: #f51c23;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: .14rem;
 }
