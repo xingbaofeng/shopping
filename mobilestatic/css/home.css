@@ -1,5 +1,7 @@
 body{
     font-size: .12rem;
+    background: rgba(0,0,0,0.8);
+    font-family: "\5FAE\8F6F\96C5\9ED1",Helvetica,"黑体",Arial,Tahoma;
 }
 .header{
     background: -webkit-linear-gradient(bottom left,#666,#333);
@@ -41,13 +43,14 @@ body{
     margin: 0 auto;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: white;
 }
 .menuleft{
     background: #404248;
     position: fixed;
     height: 100%;
     width: 0rem;/*3.75*/
-
+    overflow-x: hidden;
     -webkit-transition: width 160ms;
 
 
@@ -63,7 +66,8 @@ body{
     display: block;
     width: 100%;
     height: .98rem;
-    border-bottom: 1px solid #eeeeee;
+    border-bottom: 1px solid #4a4d54;
+
     background-image: url("../images/xright.png");
     background-repeat: no-repeat;
     background-position:90% 50%;
@@ -131,7 +135,7 @@ a .gywmback{
 .homeRemarks{
     width: 100%;
     height: .75rem;
-    font-size: .24rem;
+    font-size: .33rem;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
 }
@@ -146,7 +150,7 @@ a .gywmback{
 .homeRemarks-con{
     padding-left: .29rem;
     line-height: .765rem;
-    font-weight: bold;
+
     color:#4c4c4c;
 }
 .lunbo img{
@@ -167,6 +171,7 @@ a .gywmback{
     margin-top: .2rem;
     margin-right: .3rem;
     float: left;
+    color:#333;
 }
 .homenavsl-bac{
     width: 1.23rem;
@@ -189,7 +194,9 @@ a .gywmback{
     font-size: .24rem;
     margin-top: .1rem;
 }
-
+.homegcjs{
+    margin-top: .1rem;
+}
 
 .homegcjs-slid{
     height: 4.2rem;
@@ -218,7 +225,7 @@ a .gywmback{
     text-align: center;
     margin: 0 auto;
     font-size: .35rem;
-    font-weight: bold;
+    font-weight: normal;
     color: white;
     overflow: hidden;
 }
@@ -319,7 +326,7 @@ a .gywmback{
     margin-left: .1rem
 }
 .news-pageym{
-color: #000;
+color: #333;
     text-align: center;
     padding: 0px 2px 1px;
     font-size: .28rem;
@@ -360,6 +367,7 @@ color: #000;
     color: #666666;
     text-indent: 28px;
     line-height: .4rem;
+    padding: 0 .24rem;
 }
 .us-peitu{
     width: 100%;
@@ -408,6 +416,8 @@ text-align: center;
     line-height: .4rem;
     padding-bottom: .45rem;
     padding-top: .45rem;
+    padding-left:.24rem;
+    padding-right:.24rem;
 }
 
 
