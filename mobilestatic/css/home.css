@@ -420,4 +420,152 @@ text-align: center;
     padding-right:.24rem;
 }
 
+/*新闻详情页  newsdetails*/
+.detailsheader{
+    width: 7.5rem;
+    margin: 0 auto;
 
+}
+.dhrfixd{
+    position: fixed;
+    top: 0;
+    background-color: #4c4c4c;
+    width: 7.5rem;
+    z-index: 10;
+    height: 1.15rem ;
+}
+.detailCont{
+    padding: 0rem .31rem 0rem .31rem;
+    margin-top: 1.5rem;
+}
+.dhrfixdl{
+    float: left;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    margin-top: 0.2rem;
+    margin-left: .3rem;
+    background: rgba(255,255,255,0.7);
+    background-image: url("../images/xaingzuo.png");
+    background-size: .5rem .5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.dhrfixdr{
+    float: right;
+    width:  .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    margin-top: 0.2rem;
+    margin-right: .3rem;
+    background: rgba(255,255,255,0.7);
+    background-image: url("../images/fenxianglogo.png");
+    background-size: .5rem .5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.detailCont h3{
+    font-size: .33rem;
+    line-height: .48rem;
+    font-weight: normal;
+    text-align: left;
+
+}
+.detailCont span{
+    display: inline-block;
+    font-size: .24rem;
+    color: #999;
+    line-height: .28rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+.detailCont p{
+    font-family: 微软雅黑;
+    font-size: 0.33rem;
+    color: #666666;
+    line-height: .5rem;
+    margin-bottom: .5rem;
+}
+.detailfooter{
+    width: 7.5rem;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+}
+.df-main{
+    position: fixed;
+    bottom: -8rem;
+    width: 7.5rem;
+    background-color: white;
+    transition: bottom 0.5s;
+    z-index: 12;
+}
+.df-main h3{
+    text-align: center;
+    height: .67rem;
+    color: #999;
+    font-size: .33rem;
+    padding: .3rem 0;
+    font-weight: normal;
+
+}
+.df-fxtb{
+    background-color: white;
+    overflow: hidden;
+}
+.df-fxtb li{
+    float: left;
+    width: 1.5rem;
+    display: inline-block;
+    margin-left: .3rem;
+    margin-bottom: .5rem;
+
+}
+.df-fxtb li a{
+    border-radius: 50%;
+    margin-left: .08rem;
+display: inline-block;
+    width: 1.5rem;
+}
+.df-fxtb li a div{
+    border-radius: 50%;
+    background-color: #0ab262;
+    margin: 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0 auto;
+    background-image: url("../images/weixin.png");
+    background-size: .5rem .5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.df-fxtb li a div.xlwb{
+    background-color: red;
+    background-image: url("../images/weibo.png");
+}
+.df-fxtb li a div.qqkongjian{
+    background-color: blue;
+    background-image: url("../images/qqkongjian.png");
+}
+.df-fxtb li a div.doubanwang{
+    background-color: #1c7430;
+    background-image: url("../images/douban.png");
+}
+.df-fxtb li a div.tieba{
+    background-image: url("../images/teiba.png");
+    background-size: 1.2rem 1.2rem;
+}
+.df-fxtb li p{
+    color: #333;
+    font-size: .33rem;
+    text-align: center;
+}
+.dfquxiao{
+    height: 1.56rem;
+    text-align: center;
+    line-height: 1.56rem;
+    font-size: .33rem;
+    color: #000;
+    border-top: 1px solid #00bfa5;
+}
