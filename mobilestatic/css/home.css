@@ -153,21 +153,31 @@ a .gywmback{
 
     color:#4c4c4c;
 }
+/*.lunboh{
+    height: 2.1rem;
+}*/
 .lunbo img{
     display: block;
     margin: 0 auto;
+    height: 100%;
 }
 
 .homenav{
     height: 2.14rem;
     width: 100%;
     padding-top: .3rem;
+    text-align: center;
+}
+.homenavcenti{
+    margin: 0 auto;
+    width: 6rem;
+    overflow: hidden;
 }
 .homenavslid{
     display: block;
     width: 1.23rem;
-    height: 1.23rem;
-    margin-left: .3rem;
+    height: 1.73rem;
+    margin-left: .4rem;
     margin-top: .2rem;
     margin-right: .3rem;
     float: left;
