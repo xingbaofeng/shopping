@@ -86,6 +86,10 @@ body{
     transition: margin-left 300ms .220s;
 }
 .menu-s-trans4{
+     margin-left: -3.75rem;
+     transition: margin-left 300ms .310s;
+ }
+.menu-s-trans5{
     margin-left: -3.75rem;
     transition: margin-left 300ms .270s;
 }
@@ -123,6 +127,9 @@ a .xwback{
 a .gywmback{
     background-image: url("../images/gywmbac.png");
 }
+a .zpsxback{
+    background-image: url("../images/zuopinsx.png");
+}
 /**/
 .homelogo{
     width: 100%;
@@ -138,6 +145,7 @@ a .gywmback{
     font-size: .33rem;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
+    position: relative;
 }
 .homeRemarks-bl{
     display: inline-block;
@@ -152,6 +160,14 @@ a .gywmback{
     line-height: .765rem;
 
     color:#4c4c4c;
+}
+.homemore{
+    position: absolute;
+    display: inline-block;
+    right: .3rem;
+    top: .2rem;
+    font-size: .24rem;
+    color: #808080;
 }
 /*.lunboh{
     height: 2.1rem;
@@ -496,6 +512,14 @@ text-align: center;
     color: #666666;
     line-height: .5rem;
     margin-bottom: .5rem;
+}
+.detailFigure{
+    width: 100%;
+
+}
+.detailFigure img{
+    width: 100%;
+
 }
 .detailfooter{
     width: 7.5rem;
