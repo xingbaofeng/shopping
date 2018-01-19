@@ -5,6 +5,7 @@
 }
 .header{
    width: 100%;
+    text-align: center;
 }
 .header_title{
     width: 1200px;
@@ -12,29 +13,34 @@
     overflow: hidden;
 }
 .header_title li{
-    float: left;
+   float: none;
 }
 .header_title_left{
-    width:580px;
+
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
     position: relative;
-    height: 120px;
-    line-height: 120px;
+    height: 95px;
+    line-height: 95px;
     color: #ffffff;
     font-size: 32px;
     font-weight: bold;
     white-space: nowrap;
-
+    margin-top: 10px;
+    border-bottom: 1px solid #999999;
 }
-
 .header_title_left img{
-  position: absolute;
-    top:33px;
-    left:40px;
+vertical-align: middle;
     height: 53px;
     width: 53px;
 }
 .header_title_left span{
-  padding-left: 100px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+     padding-left: 30px;
+    vertical-align: middle;
 
 }
 
@@ -42,11 +48,13 @@
 text-align: right;
     display: inline-block;
     width:620px;
-    height: 120px;
-    line-height: 120px;
+    height: 90px;
+    line-height: 90px;
+    padding-right: 60px;
 
 }
 .header_title_right ul {
+
 overflow: hidden;
 }
 .header_title_right ul li{
@@ -110,7 +118,7 @@ overflow: hidden;
     margin: 0 auto;
     z-index: 1;
     background-size: cover;
-    background-image:url('../img/new_heng.jpg')
+    background-image:url('../img/new_profil.jpg')
 }
 .new_header_photo_small{
     width: 240px;height: 324px;
@@ -123,7 +131,7 @@ overflow: hidden;
     width: 500px;height: 250px;
     position: absolute;
     right:12%;
-    top:160px;
+    top:132px;
 }
 /*header*/
 /*选项卡部分*/
