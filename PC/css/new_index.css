@@ -234,11 +234,11 @@ overflow: hidden;
     color: rgb(250, 249, 249);
     font-size: 26px;
 }
-.new_ser_title span{
+.new_ser span{
     display: inline-block;
 color: #7a7b7b;
     font-size: 12px;
-    margin-left: 15px;
+    margin-left: 2px;
 }
 .new_ser_con{
     height: 420px;
@@ -338,17 +338,18 @@ display: none;
 .new_swiper{
     overflow: hidden;
     background: #151515;
-    width: 1100px;
+    width: 930px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 60px;
     position: relative;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 0;
 }
 .oswip{
     display: inline-block;
 }
 .oswip1{
+    margin-left: 20px;
     width: 214px;
     height: 299px;
     background-color: #696969;
@@ -369,8 +370,8 @@ display: none;
 
 }
 .oswip2{
-    margin-left: 60px;
-    width: 820px;
+    margin-left: 50px;
+    width: 645px;
 
 
 }
@@ -385,18 +386,18 @@ display: none;
     font-size: 14px;
 }
 .oswip2_exp{
-    width: 730px;
+    width: 645px;
     margin-top: 30px;
     color: rgb(102, 102, 102);
     font-size: 12px;
     height: 20px;
-    line-height: 26px;
+    line-height: 24px;
 }
 
 .lunbo{
     clear: both;
     max-width:1120px;
-height: 620px;
+    height: 620px;
     margin: 0 auto;
 
 }
