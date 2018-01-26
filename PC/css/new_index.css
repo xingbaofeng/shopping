@@ -128,7 +128,8 @@ overflow: hidden;
 }
 .new_header_photo_small1{
     text-align: left;
-    width: 500px;height: 250px;
+    width: 45%;
+    height: 250px;
     position: absolute;
     right:12%;
     top:132px;
@@ -510,7 +511,8 @@ display: none;
     text-indent: 21pt;
     font-size: 14px;
     margin-top: 30px;
-    height: 20px;
+
+
     line-height: 20px;
 
 
