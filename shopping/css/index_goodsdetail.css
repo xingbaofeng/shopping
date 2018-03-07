@@ -127,7 +127,7 @@ margin-top: .03rem;
     -webkit-box-shadow: 0 0 10PX 0 rgba(155,143,143,0.6);
 }
 .footer ul li{
-    height: .45rem;
+    height: .6rem;
 
 }
 .footer ul li.footer_left{
@@ -159,8 +159,8 @@ margin-top: .03rem;
     color: #ffffff;
    padding-right: .1rem;
     text-align: center;
-    height: .45rem;
-    line-height: .45rem;
+    height: .6rem;
+    line-height: .6rem;
 }
 .footer ul li.footer_right a{
     color: #ffffff;
@@ -168,8 +168,10 @@ margin-top: .03rem;
 .footer_li_car{
 
     text-align: center;
-
-
+    height: .5rem;
+    background-color:#FFC978 ;
+    line-height: .6rem;
+    color: #E51C23 ;
 
 }
 .footer_li_car img{

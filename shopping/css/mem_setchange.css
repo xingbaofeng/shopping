@@ -21,7 +21,7 @@ body{
     padding: 0 .14rem 0 .1rem;
     background: #ffffff;
     height: auto;
-    border-bottom: 1px solid darkgrey;
+    border: 1px solid darkgrey;
 }
 .mem_set li{
     float: none;
@@ -42,7 +42,7 @@ body{
 .mem_set li input{
     padding: 0 .08rem;
     font-size: .14rem;
-    width: 2.73rem;
+    width: 2.2rem;
 }
 .mem_sub{
     background: #07DE9D;

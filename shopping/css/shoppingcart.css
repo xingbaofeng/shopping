@@ -1,5 +1,5 @@
 body{
-    background-color:#f2f2f2 ;
+    background-color:#F8F8F8  ;
 }
 .cart-hd{
     height: 0.45rem;
@@ -65,7 +65,7 @@ body{
     position: fixed;
     bottom: .44rem;
     background-color: #ffffff;
-    border-top: 1px solid #f8f8f8;
+    border: 1px solid #BBBBBB;
 
 }
 .cart-productlistFor-SC{
@@ -79,7 +79,7 @@ body{
 .cart-productlistFor-Select{
     line-height: .46rem;
     padding-left: .1rem;
-    width: .4rem;
+    width: .6rem;
     height: 100%;
     float: left;
 }
